@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Vazir;
+  src: url(../Fonts/Vazir.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Vazir;
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.input-search {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid gray;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.input-div > svg,
+.input-city > svg {
+  width: 22px;
+}
+.input-div > a,
+.input-city > a {
+  color: gray;
+  font-size: 14px;
+}
+.input-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0 10px;
+  border-left: 2px solid gray;
+}
+.input-city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
